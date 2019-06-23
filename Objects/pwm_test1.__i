@@ -1,0 +1,6 @@
+--c99 -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections
+-IC:\keil_arm\ARM\RV31\INC
+-IC:\keil_arm\ARM\CMSIS\Include
+-IC:\keil_arm\ARM\INC\Philips
+-D__UVISION_VERSION="524"
+-o .\objects\pwm_test1.o --omf_browse .\objects\pwm_test1.crf --depend .\objects\pwm_test1.d "pwm_test1.c"
