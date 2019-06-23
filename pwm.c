@@ -80,3 +80,7 @@ void initClocks(void)
 	VPBDIV = 0x01;    // PCLK is same as CCLK i.e.60 MHz
 }
 
+void delay1( int x)
+{
+	return x;
+}
